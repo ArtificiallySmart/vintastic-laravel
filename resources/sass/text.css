@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f58152;
+}
+
+.lobsterFont {
+  font-family: "Fugaz One", cursive;
+  color: #f58152;
+}
+.lobsterColor {
+  color: #f58152;
+}
+
+.darkGreen {
+  color: #8e8d8a;
+}
+
+.banner {
+  font-family: "Fugaz One", cursive;
+  color: #eae7dc;
+}

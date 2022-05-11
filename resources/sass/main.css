@@ -1,0 +1,54 @@
+body {
+  background-image: url("/images/pattern3.png");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.content-box {
+  background-color: #eae7dc;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.shopping-cart {
+  cursor: pointer;
+  background-color: #eae7dc;
+  z-index: 1;
+  position: fixed;
+  right: 6rem;
+  bottom: 4rem;
+  padding: 0;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.bi-cart4 {
+  font-size: 3.5rem;
+}
+
+.blur {
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+  backdrop-filter: blur(5px);
+}
+.alert {
+  background-color: #39eb9a;
+  border: none;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 2;
+  margin-bottom: 0;
+}
+
+.has_required {
+  text-decoration: line-through;
+  color: #689868;
+}
+/* orange: #f58152
+whitish: #F9EBCE
+purple: #be489c */ ;
